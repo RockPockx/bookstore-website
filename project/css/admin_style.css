@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
-   --purple:#8e44ad;
+   --green:#3B4E41;
+   --gold:#B39872;
    --red:#c0392b;
-   --orange:#f39c12;
    --black:#333;
    --white:#fff;
    --light-color:#666;
@@ -23,7 +23,7 @@
 }
 
 *::selection{
-   background-color: var(--purple);
+   background-color: var(--green);
    color:var(--white);
 }
 
@@ -37,7 +37,7 @@
 }
 
 *::-webkit-scrollbar-thumb{
-   background-color: var(--purple);
+   background-color: var(--green);
 }
 
 html{
@@ -121,7 +121,7 @@ section{
 
 .white-btn,
 .btn{
-   background-color: var(--purple);
+   background-color: var(--green);
 }
 
 .option-btn{
@@ -168,17 +168,18 @@ section{
 }
 
 .header .flex .logo span{
-   color:var(--purple);
+   color:var(--green);
 }
 
 .header .flex .navbar a{
    margin:0 1rem;
    font-size: 2rem;
-   color:var(--black);
+   font-weight: 500;
+   color:var(--green);
 }
 
 .header .flex .navbar a:hover{
-   color:var(--purple);
+   color:var(--gold);
 }
 
 .header .flex .icons div{
@@ -189,7 +190,7 @@ section{
 }
 
 .header .flex .icons div:hover{
-   color:var(--purple);
+   color:var(--green);
 }
 
 .header .flex .account-box{
@@ -218,7 +219,7 @@ section{
 }
 
 .header .flex .account-box p span{
-   color:var(--purple);
+   color:var(--green);
 }
 
 .header .flex .account-box .delete-btn{
@@ -270,7 +271,7 @@ section{
    margin-top: 1.5rem;
    padding:1.5rem;
    background-color: var(--light-bg);
-   color:var(--purple);
+   color:var(--green);
    font-size: 2rem;
    border-radius: .5rem;
    border:var(--border);
@@ -407,7 +408,7 @@ section{
 }
 
 .orders .box-container .box p span{
-   color:var(--purple);
+   color:var(--green);
 }
 
 .orders .box-container .box form{
@@ -451,7 +452,7 @@ section{
 }
 
 .users .box-container .box p span{
-   color:var(--purple);
+   color:var(--green);
 }
 
 .users .box-container .box .delete-btn{
@@ -484,7 +485,7 @@ section{
 }
 
 .messages .box-container .box p span{
-   color:var(--purple);
+   color:var(--green);
 }
 
 .messages .box-container .box .delete-btn{
