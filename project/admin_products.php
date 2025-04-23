@@ -22,19 +22,19 @@ if(isset($_POST['add_product'])){
    $select_product_name = mysqli_query($conn, "SELECT name FROM `products` WHERE name = '$name'") or die('query failed');
 
    if(mysqli_num_rows($select_product_name) > 0){
-      $message[] = 'product name already added';
+      $message[] = 'Product name already added';
    }else{
       $add_product_query = mysqli_query($conn, "INSERT INTO `products`(name, price, image) VALUES('$name', '$price', '$image')") or die('query failed');
 
       if($add_product_query){
          if($image_size > 2000000){
-            $message[] = 'image size is too large';
+            $message[] = 'Image size is too large';
          }else{
             move_uploaded_file($image_tmp_name, $image_folder);
-            $message[] = 'product added successfully!';
+            $message[] = 'Product added successfully!';
          }
       }else{
-         $message[] = 'product could not be added!';
+         $message[] = 'Product could not be added!';
       }
    }
 }
@@ -84,7 +84,7 @@ if(isset($_POST['update_product'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>products</title>
+   <title>Products | AdminPanel</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -101,12 +101,12 @@ if(isset($_POST['update_product'])){
 
 <section class="add-products">
 
-   <h1 class="title">shop products</h1>
+   <h1 class="title">All Products</h1>
 
    <form action="" method="post" enctype="multipart/form-data">
       <h3>add product</h3>
-      <input type="text" name="name" class="box" placeholder="enter product name" required>
-      <input type="number" min="0" name="price" class="box" placeholder="enter product price" required>
+      <input type="text" name="name" class="box" placeholder="Product name" required>
+      <input type="number" min="0" name="price" class="box" placeholder="Product price" required>
       <input type="file" name="image" accept="image/jpg, image/jpeg, image/png" class="box" required>
       <input type="submit" value="add product" name="add_product" class="btn">
    </form>
@@ -130,13 +130,13 @@ if(isset($_POST['update_product'])){
          <img src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
          <div class="name"><?php echo $fetch_products['name']; ?></div>
          <div class="price">Rp<?php echo $fetch_products['price']; ?>/-</div>
-         <a href="admin_products.php?update=<?php echo $fetch_products['id']; ?>" class="option-btn">update</a>
-         <a href="admin_products.php?delete=<?php echo $fetch_products['id']; ?>" class="delete-btn" onclick="return confirm('delete this product?');">delete</a>
+         <a href="admin_products.php?update=<?php echo $fetch_products['id']; ?>" class="option-btn">Update</a>
+         <a href="admin_products.php?delete=<?php echo $fetch_products['id']; ?>" class="delete-btn" onclick="return confirm('delete this product?');">Delete</a>
       </div>
       <?php
          }
       }else{
-         echo '<p class="empty">no products added yet!</p>';
+         echo '<p class="empty">No products added yet!</p>';
       }
       ?>
    </div>

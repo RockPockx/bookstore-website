@@ -71,7 +71,7 @@ if(isset($message)){
 <div class="form-container">
 
    <form action="" method="post">
-      <h3>Login Now</h3>
+      <img src="images/logo.png" alt="Bibliotheca" width="320" height="80">
       <input type="email" name="email" placeholder="Enter your email" required class="box">
       <input type="password" name="password" placeholder="Enter your password" required class="box">
       <input type="submit" name="submit" value="login now" class="btn">

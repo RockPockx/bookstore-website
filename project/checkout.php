@@ -16,7 +16,7 @@ if(isset($_POST['order_btn'])){
    $number = $_POST['number'];
    $email = mysqli_real_escape_string($conn, $_POST['email']);
    $method = mysqli_real_escape_string($conn, $_POST['method']);
-   $address = mysqli_real_escape_string($conn, 'flat no. '. $_POST['flat'].', '. $_POST['street'].', '. $_POST['city'].', '. $_POST['country'].' - '. $_POST['pin_code']);
+   $address = mysqli_real_escape_string($conn, 'House no. '. $_POST['House no'].', '. $_POST['street'].', '. $_POST['city'].', '. $_POST['country'].' - '. $_POST['pin_code']);
    $placed_on = date('d-M-Y');
 
    $cart_total = 0;
@@ -118,12 +118,12 @@ if(isset($_POST['order_btn'])){
             <select name="method">
                <option value="cash on delivery">Cash on Delivery</option>
                <option value="credit card">Credit Card</option>
-               <option value="paypal">Bank Transfer</option>
+               <option value="bank transfer">Bank Transfer</option>
             </select>
          </div>
          <div class="inputBox">
             <span>Address line 01 :</span>
-            <input type="number" min="0" name="flat" required placeholder="e.g. House number">
+            <input type="number" min="0" name="house" required placeholder="e.g. House number">
          </div>
          <div class="inputBox">
             <span>Address line 02 :</span>

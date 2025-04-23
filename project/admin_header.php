@@ -36,7 +36,7 @@ if(isset($message)){
          <p>Username : <span><?php echo $_SESSION['admin_name']; ?></span></p>
          <p>E-mail : <span><?php echo $_SESSION['admin_email']; ?></span></p>
          <a href="logout.php" class="delete-btn">Logout</a>
-         <div>New <a href="login.php">login</a> | <a href="register.php">Register</a></div>
+         <div>New <a href="login.php">Login</a> | <a href="register.php">Register</a></div>
       </div>
 
    </div>

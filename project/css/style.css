@@ -610,9 +610,9 @@ section{
 
 .authors .box-container .box h3{
    font-size: 2.5rem;
-   color:var(--black);
+   color:var(--white);
    padding:1.5rem;
-   background-color: var(--green);
+   background-color: var(--gold);
 }
 
 .contact form{
