@@ -36,6 +36,7 @@ if(isset($_GET['delete_all'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" type="image/x-icon" href="images/bibliotheca-favicon.png">
    <title>Cart</title>
 
    <!-- font awesome cdn link  -->
@@ -56,7 +57,7 @@ if(isset($_GET['delete_all'])){
 
 <section class="shopping-cart">
 
-   <h1 class="title">products added</h1>
+   <h1 class="title">Products added</h1>
 
    <div class="box-container">
       <?php

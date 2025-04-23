@@ -34,7 +34,8 @@ if(isset($_POST['submit'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>register</title>
+   <link rel="icon" type="image/x-icon" href="images/bibliotheca-favicon.png">
+   <title>Register</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -63,7 +64,7 @@ if(isset($message)){
 <div class="form-container">
 
    <form action="" method="post">
-      <h3>register now</h3>
+      <img src="images/logo.png" alt="Bibliotheca" width="320" height="80">
       <input type="text" name="name" placeholder="Name" required class="box">
       <input type="email" name="email" placeholder="Email" required class="box">
       <input type="password" name="password" placeholder="Password" required class="box">
