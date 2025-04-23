@@ -97,6 +97,15 @@ section{
    font-size: 4rem;
 }
 
+.reviews .title{
+   text-align: center;
+   margin-bottom: 2rem;
+   text-transform: uppercase;
+   color:var(--white);
+   font-size: 4rem;
+   margin-bottom: 2rem;
+}
+
 .btn,
 .option-btn,
 .delete-btn,
@@ -136,7 +145,7 @@ section{
 }
 
 .heading{
-   min-height: 30vh;
+   min-height: 50vh;
    display: flex;
    flex-flow: column;
    align-items: center;
@@ -433,6 +442,8 @@ section{
    display: flex;
    align-items: center;
    flex-wrap: wrap;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
 }
 
 .about .flex .image{
@@ -488,7 +499,9 @@ section{
 }
 
 .reviews{
-   background-color: var(--light-bg);
+   background-color: var(--gold);
+   margin-top: 3rem;
+   margin-bottom: 3rem;
 }
 
 .reviews .box-container{
