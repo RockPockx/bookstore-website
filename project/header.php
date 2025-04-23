@@ -26,7 +26,9 @@ if(isset($message)){
 
    <div class="header-2">
       <div class="flex">
-         <a href="home.php" class="logo">Bookly.</a>
+         <a href="home.php" class="logo">
+            <img src="images/logo.png" alt="Bibliotheca" width="200" height="50">
+         </a>
 
          <nav class="navbar">
             <a href="home.php">Home</a>

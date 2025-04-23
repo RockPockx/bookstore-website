@@ -21,7 +21,7 @@
       <div class="box">
          <h3>Contact Info</h3>
          <p> <i class="fas fa-phone"></i> +62 813-1704-6945 </p>
-         <p> <i class="fas fa-envelope"></i> booklet@gmail.com </p>
+         <p> <i class="fas fa-envelope"></i> biblotheca.id@gmail.com </p>
          <p> <i class="fas fa-map-marker-alt"></i> Jakarta, Indonesia</p>
       </div>
 

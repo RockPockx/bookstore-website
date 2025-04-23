@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
-   --green:#4B5945;
+   --green:#3B4E41;
+   --gold:#B39872;
    --red:#c0392b; 
    --btn-green:#91AC8F;
    --black:#333;
@@ -14,12 +15,13 @@
 }
 
 *{
-   font-family: 'Space Grotesk', sans-serif;
+   font-family: 'Montserrat Alternates', sans-serif;
    margin:0; padding:0;
    box-sizing: border-box;
    outline: none; border:none;
    text-decoration: none;
    transition:all .2s linear;
+   scroll-behavior: smooth;
 }
 
 *::selection{
@@ -52,9 +54,9 @@ section{
 .empty{
    padding:1.5rem;
    text-align: center;
-   border:var(--border);
    background-color: var(--white);
    color:var(--red);
+   font-weight: 600;
    font-size: 2rem;
 }
 
@@ -121,7 +123,7 @@ section{
 }
 
 .option-btn{
-   background-color: var(--btn-green);
+   background-color: var(--gold);
 }
 
 .delete-btn{
@@ -224,7 +226,7 @@ section{
 }
 
 .header .header-1{
-   background-color: var(--light-bg);
+   background-color: var(--green);
 }
 
 .header .header-1 .flex{
@@ -260,11 +262,11 @@ section{
 .header .header-1 .flex .share a{
    font-size: 2.5rem;
    margin-right: 1.5rem;
-   color:var(--black);
+   color:var(--white);
 }
 
 .header .header-1 .flex .share a:hover{
-   color:var(--green);
+   color:var(--gold);
 }
 
 .header .header-1 .flex p{
@@ -273,7 +275,7 @@ section{
 }
 
 .header .header-1 .flex p a{
-   color:var(--green);
+   color:var(--white);
 }
 
 .header .header-1 .flex p a:hover{
@@ -288,23 +290,24 @@ section{
 .header .header-2 .flex .navbar a{
    margin:0 1rem;
    font-size: 2rem;
-   color:var(--light-color);
+   font-weight: 600;
+   color:var(--green);
 }
 
 .header .header-2 .flex .navbar a:hover{
-   color:var(--green);
+   color:var(--gold);
    text-decoration: underline;
 }
 
 .header .header-2 .flex .icons > *{
    font-size: 2.5rem;
-   color:var(--black);
+   color:var(--green);
    cursor: pointer;
    margin-left: 1.5rem;
 }
 
 .header .header-2 .flex .icons > *:hover{
-   color:var(--green);
+   color:var(--gold);
 }
 
 #menu-btn{
@@ -344,8 +347,8 @@ section{
 }
 
 .home{
-   min-height: 70vh;
-   background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../images/home-bg.jpg) no-repeat;
+   min-height: 80vh;
+   background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../images/home-banner.jpg) no-repeat;
    background-size: cover;
    background-position: center;
    display: flex;
@@ -355,7 +358,7 @@ section{
 
 .home .content{
    text-align: center;
-   width: 60rem;
+   width: 80rem;
 }
 
 .home .content h3{
@@ -369,6 +372,10 @@ section{
    color:var(--light-white);
    padding:1rem 0;
    line-height: 1.5;
+}
+
+.home .content .accent {
+   color:var(--gold);
 }
 
 .products .box-container{
@@ -456,7 +463,9 @@ section{
 }
 
 .home-contact{
-   background-color: var(--black);
+   background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../images/contact-bg.jpg) no-repeat;
+   background-size: cover;
+   background-position: center;
 }
 
 .home-contact .content{
@@ -474,7 +483,7 @@ section{
 .home-contact .content p{
    padding:1rem 0;
    line-height: 1.5;
-   color:var(--light-white);
+   color:var(--white);
    font-size: 1.7rem;
 }
 
@@ -870,7 +879,7 @@ section{
  
 
 .footer{
-   background-color: var(--light-bg);
+   background-color: var(--green);
 }
 
 .footer .box-container{
@@ -883,7 +892,7 @@ section{
 
 .footer .box-container .box h3{
    text-transform: uppercase;
-   color:var(--black);
+   color:var(--white);
    font-size: 2rem;
    padding-bottom: 2rem;
 }
@@ -892,32 +901,32 @@ section{
 .footer .box-container .box a{
    display: block;
    font-size: 1.7rem;
-   color:var(--light-color);
+   color:var(--white);
    padding:1rem 0;
 }
 
 .footer .box-container .box p i,
 .footer .box-container .box a i{
-   color:var(--green);
+   color:var(--white);
    padding-right: .5rem;
 }
 
 .footer .box-container .box a:hover{
-   color:var(--green);
+   color:var(--white);
    text-decoration: underline;
 }
 
 .footer .credit{
    text-align: center;
    font-size: 2rem;
-   color:var(--light-color);
+   color:var(--white);
    border-top: var(--border);
    margin-top: 2.5rem;
    padding-top: 2.5rem;
 }
 
 .footer .credit span{
-   color:var(--green);
+   color:var(--white);
 }
 
 

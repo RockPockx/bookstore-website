@@ -52,16 +52,16 @@ if(isset($_POST['add_to_cart'])){
 <section class="home">
 
    <div class="content">
-      <h3>Hand Picked Book to your door.</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quod? Reiciendis ut porro iste totam.</p>
-      <a href="about.php" class="white-btn">discover more</a>
+      <h3>Fresh Reads, <span class="accent">Delivered.</span></h3>
+      <p>Handpicked books tailored to your taste—shipped right to your door. Discover stories that stay with you, one page at a time.</p>
+      <a href="#products" class="white-btn">Discover More</a>
    </div>
 
 </section>
 
-<section class="products">
+<section class="products" id="products">
 
-   <h1 class="title">latest products</h1>
+   <h1 class="title">Latest Products</h1>
 
    <div class="box-container">
 
@@ -89,7 +89,7 @@ if(isset($_POST['add_to_cart'])){
    </div>
 
    <div class="load-more" style="margin-top: 2rem; text-align:center">
-      <a href="shop.php" class="option-btn">load more</a>
+      <a href="shop.php" class="option-btn">Load More</a>
    </div>
 
 </section>
@@ -99,12 +99,12 @@ if(isset($_POST['add_to_cart'])){
    <div class="flex">
 
       <div class="image">
-         <img src="images/about-img.jpg" alt="">
+         <img src="images/book-about.jpg" alt="">
       </div>
 
       <div class="content">
-         <h3>about us</h3>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quos enim minima ipsa dicta officia corporis ratione saepe sed adipisci?</p>
+         <h3>About Us</h3>
+         <p>At the heart of our bookstore is a simple idea: every reader deserves the right book at the right moment. We curate handpicked selections, blending timeless classics and hidden gems, delivered straight to your door. Because your next favorite read should be just a page away.</p>
          <a href="about.php" class="btn">read more</a>
       </div>
 
@@ -115,8 +115,8 @@ if(isset($_POST['add_to_cart'])){
 <section class="home-contact">
 
    <div class="content">
-      <h3>have any questions?</h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque cumque exercitationem repellendus, amet ullam voluptatibus?</p>
+      <h3>Have Any Questions?</h3>
+      <p>We're here to help—whether you're curious about our book picks, delivery process, or just want to chat stories. Drop us a message and we’ll get back to you in no time.</p>
       <a href="contact.php" class="white-btn">contact us</a>
    </div>
 
