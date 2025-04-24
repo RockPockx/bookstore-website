@@ -13,6 +13,7 @@ if(isset($message)){
 
 <header class="header">
 
+   <!-- Top header -->
    <div class="header-1">
       <div class="flex">
          <div class="share">
@@ -24,6 +25,7 @@ if(isset($message)){
       </div>
    </div>
 
+   <!-- Bottom header -->
    <div class="header-2">
       <div class="flex">
          <a href="home.php" class="logo">

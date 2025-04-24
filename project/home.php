@@ -74,7 +74,7 @@ if(isset($_POST['add_to_cart'])){
      <form action="" method="post" class="box">
       <img class="image" src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
       <div class="name"><?php echo $fetch_products['name']; ?></div>
-      <div class="price">$<?php echo $fetch_products['price']; ?>/-</div>
+      <div class="price">Rp<?php echo $fetch_products['price']; ?>/-</div>
       <input type="number" min="1" name="product_quantity" value="1" class="qty">
       <input type="hidden" name="product_name" value="<?php echo $fetch_products['name']; ?>">
       <input type="hidden" name="product_price" value="<?php echo $fetch_products['price']; ?>">
@@ -106,7 +106,7 @@ if(isset($_POST['add_to_cart'])){
       <div class="content">
          <h3>About Us</h3>
          <p>At the heart of our bookstore is a simple idea: every reader deserves the right book at the right moment. We curate handpicked selections, blending timeless classics and hidden gems, delivered straight to your door. Because your next favorite read should be just a page away.</p>
-         <a href="about.php" class="btn">read more</a>
+         <a href="about.php" class="btn">Read More</a>
       </div>
 
    </div>
