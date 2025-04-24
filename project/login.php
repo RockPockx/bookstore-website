@@ -73,8 +73,8 @@ if(isset($message)){
 
    <form action="" method="post">
       <img src="images/logo.png" alt="Bibliotheca" width="320" height="80">
-      <input type="email" name="email" placeholder="Enter your email" required class="box">
-      <input type="password" name="password" placeholder="Enter your password" required class="box">
+      <input type="email" name="email" placeholder="Email" required class="box">
+      <input type="password" name="password" placeholder="Password" required class="box">
       <input type="submit" name="submit" value="login now" class="btn">
       <p>Don't have an account? <a href="register.php">Register now</a></p>
    </form>

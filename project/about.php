@@ -123,7 +123,7 @@ if(!isset($user_id)){
       </div>
 
       <div class="box">
-         <img src="images/author-2.jpg" alt="">
+         <img src="images/moeka-shiotsuka.jpg" alt="">
          <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
