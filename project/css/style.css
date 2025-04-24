@@ -151,7 +151,7 @@ section{
    align-items: center;
    justify-content: center;
    gap:1rem;
-   background: url(../images/heading-bg.webp) no-repeat;
+   background:linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url(../images/heading-book.jpg) no-repeat;
    background-size: cover;
    background-position: center;
    text-align: center;
@@ -159,17 +159,17 @@ section{
 
 .heading h3{
    font-size: 5rem;
-   color:var(--black);
+   color:var(--white);
    text-transform: uppercase;
 }
 
 .heading p{
    font-size: 2.5rem;
-   color:var(--light-color);
+   color:var(--white);
 }
 
 .heading p a{
-   color:var(--green);
+   color:var(--white);
 }
 
 .heading p a:hover{
