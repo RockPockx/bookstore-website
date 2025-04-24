@@ -1,3 +1,5 @@
+// User Interface Script
+
 let userBox = document.querySelector('.header .header-2 .user-box');
 
 document.querySelector('#user-btn').onclick = () =>{

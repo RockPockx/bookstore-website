@@ -86,6 +86,8 @@ CREATE TABLE `products` (
 
 -- --------------------------------------------------------
 
+
+
 --
 -- Table structure for table `users`
 --
